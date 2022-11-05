@@ -34,7 +34,6 @@
                 var flag= true;
                 //每次点击下面的复选框都要循环检查4个小按钮是否全被选中
                 for(var i=0;i<j_tbs.length;i++){
-            
             if(!j_tbs[i].checked){
                 flag = false;
              }

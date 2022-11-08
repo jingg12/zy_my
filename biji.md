@@ -26,6 +26,7 @@
             for(var i = 0;i < j_tbs.length;i++){
                 j_tbs[i].checked = this.checked;
             }
+            
         }
         //2.下面复选框需要全部选中，上面全选才能选中做法 给下面所有复选框绑定点击事件，每次点击
         for(i= 0; i<j_tbs.length;i++){

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>开关灯</title>
+    <style>
+        .open{
+            background-color: white;
+
+        }
+        .close{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <button>关灯</button>
+    <script>
+        var btn = document.querySelector('button');
+        var flag = 0;
+        var bodys = document.body;
+        btn.onclick = function(){
+            if (flag == 0){
+                bodys.className = 'close';
+                flag = 1;
+                btn.innerText = '开灯'
+            }else{
+                bodys.className = 'open';
+                flag = 0;
+                btn.innerText = '关灯'
+            }
+        }
+    </script>
+</body>
+</html>

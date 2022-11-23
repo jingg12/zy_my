@@ -1,5 +1,5 @@
    # 表格隔行换色
-    <script>
+    <script> 
         //1.获取元素
         var trs = document.querySelector('tbody').querySelectorAll('tr');
         //2.利用循环绑定注册事件
